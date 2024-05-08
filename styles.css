@@ -108,7 +108,7 @@ li {
 }
 
 .description {
-  width: 150px;
+  width: 135px;
   text-align: justify;
   font-size: 12px;
   text-wrap: wrap;
@@ -120,19 +120,27 @@ li {
   align-items: center;
   flex-direction: column;
   text-wrap: wrap;
+  background-color: #e5e7eb;
+  padding: 90px;
 }
 
 .quote {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 600px;
+  width: 900px;
+  text-overflow: wrap;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 36px;
 }
+
 
 .quotee {
   display: flex;
-  justify-content: flex-end;
+  justify-self: flex-end;
   align-items: center;
+  font-weight: bold;
 }
 
 .middle3 {
