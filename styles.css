@@ -1,0 +1,159 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: #1f2937;
+  height: auto;
+  padding: 0;
+}
+
+.left-links {
+  display: flex;
+
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.right-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.top {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  padding: 75px 130px 75px 90px;
+  justify-content: space-around;
+}
+
+.top-text-left {
+  text-wrap: wrap;
+  width: 400px;
+}
+
+.top-text-left .welcome-text {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.top-text-left button {
+  margin-top: 10px;
+  padding: 5px 20px;
+  background-color: #186aee;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.top-text-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7c7c7c;
+  padding: 100px;
+}
+
+.middle1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+  padding: 30px;
+}
+
+.middle-heading {
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.middle-item-container {
+  display: flex;
+  gap: 35px;
+  padding-bottom: 40px;
+}
+
+.shape {
+  border: solid 2px #186aee;
+  border-radius: 6px;
+  height: 120px;
+  width: 120px;
+}
+
+.description {
+  width: 150px;
+  text-align: justify;
+  font-size: 12px;
+  text-wrap: wrap;
+}
+
+.middle2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-wrap: wrap;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+
+.quotee {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.middle3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
