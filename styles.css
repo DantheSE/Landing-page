@@ -135,7 +135,6 @@ li {
   font-size: 36px;
 }
 
-
 .quotee {
   display: flex;
   justify-self: flex-end;
@@ -144,15 +143,37 @@ li {
 }
 
 .middle3 {
+  padding: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .blue-box {
+  background-color: #3883f6;
+  color: white;
+  border-radius: 7px;
+  gap: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 30px 70px;
+}
+
+.action-text {
+  font-weight: bold;
+}
+
+.extra-text{
+    font-size: 12px;
+}
+
+.blue-box-right button{
+    background-color: #3883f6;
+    border: solid 1px white;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 7px;
 }
 
 .footer {
